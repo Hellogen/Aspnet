@@ -5,7 +5,7 @@
 	#account{
 		margin: 0 auto;
         width: 700px;
-		height: 30px;
+		height: 50px;
 		background-color: #FFFFFF;
 	}
 	body{
@@ -19,23 +19,29 @@
         margin: 0 auto;
         width: 700px;
 		height: 100px;
-		background-color: #FFFFFF;
+		background-color: #0858b5;
     }
 	#precontent
 	{
 		margin: 0 auto;
         width: 700px;
 		height: 100px;
-		background-color: #FFFFFF;
+		background-color: #6f7898;
 	}
 	#content{
         margin: 0 auto;
         width: 700px;
-		height: 700px;
+		height: auto;
 		background-color: #FFFFFF;
 		color: black;
 		text-align: center;
     }
+	#Aftercontent{
+		margin: 0 auto;
+		width: 700px;
+		
+		background-color: #FFFFFF;
+	}
 	#textcontent{
 		color: rgb(49, 151, 116);
 	}
@@ -63,6 +69,9 @@
 		height: 600px;
 		background-color: #FFFFFF;
 		color: black;
+	}
+	#Image{
+		width: 650px;
 	}
 	
 

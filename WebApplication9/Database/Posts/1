@@ -24,8 +24,8 @@
 }
  </style>
 <body>
-	<div id="account">
-		<table align="right">
+<div id="account">
+	<table align="right">
 			<tr>
 				<td>
 					<p>Имя:<p>
@@ -39,16 +39,16 @@
 	</table>
 </div>
 <div id="menu" align="center">
-	<table bgcolor="#0858b5" margin="0 auto" border="0" cellpadding="0" cellspacing="0" width="700" border="0" bordercolor="black" border="1"height="72">
-		<tr bgcolor="#0858b5">
-			<td height="72" align="center">
+	<table id="menu">
+		<tr >
+			<td align="center">
 				<font family="Times New Roman" color="black"><h1 id="text">Хорьки</h1></font>
 			</td>
 		</tr>
 	</table>
 </div>
 <div id="precontent" align="center">
-	<table margin="0 auto" border="0" cellpadding="0" cellspacing="0" width="700" border="0" bordercolor="black" border="1"height="72">
+	<table id="precontent">
 		<tr bgcolor="#6f7898">
 			<td align="center">
 				<font color="white"><h1 id="text2">Лучшие факты о хорьках</h1></font>
@@ -58,7 +58,7 @@
 	</table>
 </div>
 <div id="content" align="center"  >
-	<table width="200" align="center">
+	<table id="content" align="center">
 		<tr >
 			<td colspan=" 2 ">
 				<h1>а вы знали что...</h1>
@@ -66,33 +66,39 @@
 		</tr>
 		<tr>
 			<td colspan=" 2">
-				<p align="left">    хорьки — род млекопитающих семейства куньих. Кроме собственно хорьков, к этому же роду хищников относятся европейская норка, ласка, горностай и длиннохвостая ласка. Три вида, в Евразии и Северной Америке; в России два вида: лесной или тёмный хорь и степной или светлый, хорь.</p>
+				<p align="left">  хорьки — род млекопитающих семейства куньих. Кроме собственно хорьков, к этому же роду хищников относятся европейская норка, ласка, горностай и длиннохвостая ласка. Три вида, в Евразии и Северной Америке; в России два вида: лесной или тёмный хорь и степной или светлый, хорь. </p>
 			</td>
 		</tr>
 		<tr>
 			<td colspan=" 2 ">
-			<img src="resources/content1.jpg"/>
+			<img id="Image" src="resources/content1.jpg"/>
 			</td>
 		</tr>
 		<tr>
-			<td>
-				<a align="left" href="/">назад</a>
-			</td>
-			<td align="right"> 
+
+			
+			</td> 
+		</tr>
+	</table>
+	
+	
+</div>
+<div id="Aftercontent">
+	<table id="Aftercontent">
+		<tr>
+			<td align="left" height="50"> 
 				<form name="Likes" >
 					<input name="one" type="text" disabled value="error">
 					<input name="btn" type="button" value="like">
 				</form>
 			</td> 
-		</tr>
+			<td align="right" height="50"> 
+				<form name="comments">
+					<input name="one" type="text">
+					<input name="btn" type="button" value="comment">
+				</form>
+			</tr>
 	</table>
-	
-</div>
-<div id="comment">
-	<form name="comments">
-		<input name="one" type="text">
-		<input name="btn" type="button" value="comment">
-	</form>
 </div>
 <script src="JS/js/toast.min.js"></script>
 <script>

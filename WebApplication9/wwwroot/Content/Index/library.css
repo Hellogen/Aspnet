@@ -31,11 +31,16 @@
 	#content{
         margin: 0 auto;
         width: 200px;
-		height: 700px;
+		
 		background-color: #FFFFFF;
 		color: black;
 		text-align: center;
     }
+	#Aftercontent{
+		width: 200px;
+		
+		background-color: #FFFFFF;
+	}
 	#textcontent{
 		color: rgb(49, 151, 116);
 	}
