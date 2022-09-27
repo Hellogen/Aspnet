@@ -26,7 +26,7 @@ namespace WebApplication9.models
             if (!optionsBuilder.IsConfigured)
             {
 
-                optionsBuilder.UseSqlite("Data Source=D:" + Info.pathtoDatabase + "\\DataBase.db");
+                optionsBuilder.UseSqlite("Data Source=" + Info.pathtoDatabase + "\\DataBase.db");
             }
         }
 
