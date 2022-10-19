@@ -80,7 +80,6 @@ namespace WebApplication9.Controllers
                 var users = db.Users.ToList();
                 string btn;
 
-
                 var likelist = db.LikesList.Where(x => x.PostID == long.Parse(text.ID)).ToList();
                 var user = db.Users.Where(x => x.Username == context.User.Identity.Name).FirstOrDefault();
                 var likelistID = db.LikesList.Where(x => x.UserID == user.ID && x.PostID == long.Parse(text.ID)).ToList();
@@ -92,13 +91,6 @@ namespace WebApplication9.Controllers
                 {
                     btn = "like";
                 }    
-
-
-
-
-
-
-                 
                 /// 1 строка - имя
                 /// 2 строка - коммент
                 int count = comments.Count;
@@ -107,10 +99,13 @@ namespace WebApplication9.Controllers
                 for (int i = 0; i < newcom.Length; )
                 {
                     var userwhocomment = users.Where(x => x.ID == comments[comcount].UserID).ToList();
-                    newcom[i] = userwhocomment[0].Username;
-                    newcom[i + 1] = comments[comcount].Comment;
-                    i = i + 2;
-                    comcount++;
+                    if (userwhocomment.Any())
+                    {
+                        newcom[i] = userwhocomment[0].Username;
+                        newcom[i + 1] = comments[comcount].Comment;
+                        i = i + 2;
+                        comcount++;
+                    }
                 }
                 Forsiteout outs = new Forsiteout(likelist.Count().ToString(), context.User.Identity.Name, btn, newcom);
                 await context.Response.WriteAsJsonAsync(outs);

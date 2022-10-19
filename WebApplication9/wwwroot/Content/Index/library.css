@@ -8,12 +8,7 @@
 		height: 30px;
 		background-color: #FFFFFF;
 	}
-	body{
-	    background: url(resources/Background.jpg) no-repeat; /* Путь к фоновому изображению */
-		background-size: cover;
-		background-color: #c7b39b; /* Цвет фона */
-		background-attachment: fixed;
-	}
+
 	
 	#menu{
         margin: 0 auto;
@@ -73,5 +68,18 @@
 		word-break: break-all;
 		
 	}
+	#other{
+		background: url(resources/Background.jpg) no-repeat; /* Путь к фоновому изображению */
+		background-size: cover;
+		background-color: #c7b39b; /* Цвет фона */
+		background-attachment: fixed;
+	}
+	#vidra{
+		background: url(resources/Background2.jpg) no-repeat; /* Путь к фоновому изображению */
+		background-size: cover;
+		background-color: #c7b39b; /* Цвет фона */
+		background-attachment: fixed;
+	}
+	
 	
 

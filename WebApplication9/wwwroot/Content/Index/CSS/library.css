@@ -11,8 +11,9 @@
 	body{
 	    background: url(resources/Background.jpg) no-repeat; /* Путь к фоновому изображению */
 		background-size: cover;
-		background-color: #c7b39b; /* Цвет фона */
+		background-color: #00000060; /* Цвет фона */
 		background-attachment: fixed;
+		
 	}
 	
 	#menu{
@@ -72,6 +73,14 @@
 	}
 	#Image{
 		width: 650px;
+	}
+	#vidra{
+		background: url(resources/Background2.jpg) no-repeat; /* Путь к фоновому изображению */
+		background-size: cover;
+		background-color: rgba(0, 0, 0, 0);
+		
+		background-attachment: fixed;
+		
 	}
 	
 
