@@ -1,0 +1,218 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" 
+  "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Сайт</title>
+   <link href="css/library.css" rel="stylesheet">
+   <link href="JS/css/toast.min.css" rel="stylesheet">
+   <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+ </head>
+ <style>
+ :root {
+  --toast-width: 270px;
+}
+
+.toast-container {
+
+  position: fixed;
+  top: 15px;
+  right: 0;
+	margin:auto;
+	left:0;
+  width: var(--toast-width);
+}
+ </style>
+<body id="vidra" background="CSS/resources/Background2.jpg">
+<div id="account">
+	<table align="right">
+			<tr>
+				<td>
+					<p>Имя:<p>
+				</td>
+				<td>
+					<form name="username" >
+						<input name="btn" type="button" value="therename">
+					</form>
+				</td>
+			</tr>
+	</table>
+</div>
+<div id="menu" align="center">
+	<table id="menu">
+		<tr >
+			<td align="center">
+				<font family="Times New Roman" color="black"><h1 id="text">Выдры</h1></font>
+			</td>
+		</tr>
+	</table>
+</div>
+<div id="precontent" align="center">
+	<table id="precontent">
+		<tr bgcolor="#6f7898">
+			<td align="center">
+				<font color="white"><h1 id="text2">Лучшие факты о выдрах</h1></font>
+			</td>
+			
+		</tr>
+	</table>
+</div>
+<div id="content" align="center"  >
+	<table id="content" align="center">
+		<tr >
+			<td colspan=" 2 ">
+				<h1>а вы знали что...</h1>
+			<td>
+		</tr>
+		<tr>
+			<td colspan=" 2">
+				<p align="left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Речная выдра представитель семейства куньих, ведущий полуводный образ жизни. Очень умное животное, обладающее многими навыками и способностями для выживания в своей среде обитания. Живут выдры преимущественно в лесных реках и реже в прудах, озерах. Реки выбирает такие, в которых есть незамерзающие быстрины и на берегу много бурелома, тут ей проще укрыться и сделать себе защищенную и никому не заметную нору. Норы строят в зарослях возле рек с входными отверстиями под водой. Но бывают и вот такие норы с заходом сверху. </p>
+			</td>
+		</tr>
+		<tr>
+			<td colspan=" 2 ">
+			<img id="Image" src="CSS/resources/content2.jpg"/>
+			</td>
+		</tr>
+		<tr>
+			<td colspan=" 2">
+				<p align="left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Выдры прекрасно видят как на суше, так и под водой благодаря механизму, который регулирует искривления кристаллика. Глазки маленькие кругленькие, но расположены так, что зверек очень хорошо все видит вокруг. Чтобы поймать добычу в мутной воде, выдра пользуется вибриссами, осязая все, что находится возле нее. Ноздри и ушные раковины выдры снабжены специальным механизмом и закрываются под водой. Очень важную роль для речной выдры играют лапки: они короткие и имеют перепонки. Задние ноги длиннее передних, эта особенность позволяет выдре легко держаться на воде и быстро плыть. Окраска меха: сверху тёмно-бурая, снизу светлая, серебристая. Остевые волосы грубые, но подпушь очень густая и нежная. Высокая плотность подшерстка делает мех совершенно непроницаемым для воды и прекрасно изолирует тело животного, защищая его от переохлаждения. </p>
+			</td>
+		</tr>
+		<tr>
+			<td colspan=" 2 ">
+			<img id="Image" src="CSS/resources/content3.jpg"/>
+			</td>
+		</tr>
+	</table>
+	
+	
+</div>
+<div id="Aftercontent">
+	<table id="Aftercontent">
+		<tr>
+			<td align="left" height="50"> 
+				<form name="Likes" >
+					<input name="one" type="text" disabled value="error">
+					<input name="btn" type="button" value="like">
+				</form>
+			</td> 
+			<td align="right" height="50"> 
+				<form name="comments">
+					<input name="one" type="text">
+					<input name="btn" type="button" value="comment">
+				</form>
+			</tr>
+	</table>
+</div>
+<script src="JS/js/toast.min.js"></script>
+<script>
+	var PostID = "3";
+	async function getdata() {
+		
+		// отправляет запрос и получаем ответ
+		const response = await fetch("/requests/users", {
+			method: "POST",
+			headers: { "Accept": "application/json", "Content-Type": "application/json" },
+			body: JSON.stringify({
+                    ID : PostID
+                })
+		});
+		// если запрос прошел нормально
+		if (response.ok) {
+			//создание форм из документа
+			var formalike = document.forms.Likes;
+			var formaname = document.forms.username;
+			//создание элементов
+			var like = formalike.elements.one;
+			var likebtn = formalike.elements.btn;
+			var name = formaname.elements.btn;
+			//создание переменной где хранится джейсон
+			var message = await response.json();
+			//установка значений
+			name.value = message.name;
+			like.value = message.likes;
+			likebtn.value = message.btn;
+			
+			for (var i = 0; i != message.comments.length; i+=2)
+			{
+				let div = document.createElement('div');
+				div.id = "comment";
+				var doc = "";
+				doc += "<p>" + message.comments[i] + "</p>";
+				doc += "<p>" + message.comments[i+1] + "</p>";
+				doc += "<p>" + "----------" + "</p>";
+				div.innerHTML = doc;
+				document.body.append(div);
+			}
+			
+		}
+	}
+	async function sendForm(e) {
+
+		const response = await fetch("/requests/add", {
+			method: "POST",
+                headers: { "Accept": "application/json", "Content-Type": "application/json" },
+				body: JSON.stringify({
+					ID : PostID
+                })
+		});
+		// если запрос прошел нормально
+		if (response.ok) {
+			//выбор формы
+			var forma = document.forms.Likes;
+			//выбор элементов
+			var like = forma.elements.one;
+			var likebtn = forma.elements.btn;
+			//загрузка json
+			var message = await response.json();
+			//распределение
+			like.value = message.likes;
+			likebtn.value = message.btn;
+			var name = message.name;
+			
+			
+            new Toast({
+				title: name,
+				text: 'Спасибо за оценку',
+				theme: 'light',
+				autohide: true,
+				interval: 3000
+			});
+		}
+	}
+	async function logout(e) {
+		window.location.href = "/logout";
+	}
+	async function SendComment(e) {
+		
+		var formcomment = document.forms.comments;
+		var text = formcomment.elements.one;
+		var newcomment = text.value;
+		const response = await fetch("/requests/AddComment", {
+                method: "POST",
+                headers: { "Accept": "application/json", "Content-Type": "application/json" },
+                body: JSON.stringify({
+					ID : PostID,
+                    comment: newcomment
+                })
+            });
+			if (response.ok) {
+                location.reload();
+				text.value = "";
+            }
+	}
+        var formlike = document.forms.Likes;
+		var formname = document.forms.username;
+		var formcomment = document.forms.comments;
+
+		var sendButton = formlike.elements.btn;
+		var sendButtonName = formname.elements.btn;
+		var sendButtoncomment = formcomment.elements.btn;
+    sendButton.addEventListener("click", sendForm);
+	sendButtonName.addEventListener("click", logout);
+	sendButtoncomment.addEventListener("click", SendComment);
+	getdata();
+</script>
+ </body>
+</html>

@@ -1,48 +1,39 @@
 <!DOCTYPE html>
 <html><head><meta http-equiv="Content - Type" content="text / html; charset = UTF - 8">
-    <link href="css/library.css" rel="stylesheet">
+    <link href="home/css/library.css" rel="stylesheet">
+    <link href="home/css/Content.css" rel="stylesheet">
 <title>Работает</title>
 
 </head>
 
 <body>
 
-<div id="Menu" align="center">
-    <table id="TableMenu">
-        <tr>
-            <td>
-                <p align="center">Сайт постов</p>
-            </td>
-            <td>
 
-            </td>
-        </tr>
-    </table>
-</div>
+<div id="Menu"  align="center">
+<table  id="TableMenu"> 
+<tr><td id="TableMenuCell"></td>
+<td id="TableMenuCell"> <p align="center">Мой Сайт</p></td>
+<td id="TableMenuCell"></td>
+</tr>
+
+
+
+</table></div>
 <div id="TapeContent" align="center">
-<table border="1" id="ContentTableTape">
+    <table  id="ContentTableTape">
     <tr>
-        <td>
-            <div id="content">
-                <table id="TableContent" border="1">
-
-                </table>
-            </div>
+        
+        <td id="ContentCell" align="right">
+            <table id="TableContent" ></table>
         </td>
-        <td id="forlitlemenu">
-            <div id="littlemenu">
-                <table border="1">
-                    <tr>
-                        <p>hello world</p>
-                    </tr>
-                    <tr>
-                        <p>new world</p>
-                    </tr>
-                </table>
-            </div>
+
+        <td id="TapeContentCell">
+            <table id="infotable">
+                
+            </table>
         </td>
     </tr>
-</table>
+    </table>
 </div>
 <script>
     async function getdata() {
@@ -60,30 +51,29 @@
             var message = await response.json();
 
             var postname = message.PostName;
-
+            var nicedayusername = message.nicedayusername;
             
 
             var table = document.getElementById("TableContent");
-             
+            var infotable = document.getElementById("infotable");
             for (let i = 0; i < message.postID.length; i++)
             {
-            var row = table.insertRow(i);
-            
-            //cell1.innerHTML = "<p>"+message.postName[i]+"</p>";
-            row.innerHTML = "<a href=\"content/index/" + message.postID[i]+"\">"+message.postName[i]+"</a>";
-            //alert(message.postID.length);
+                var row = table.insertRow(i);
+                row.innerHTML = "<td id=\"contentrow\"><a id=\"titlecontentlink\" href=\"content/index/" + message.postID[i]+"\">"+message.postName[i]+"</a></td>";
             }
+            {
+                var inforow= infotable.insertRow(0);
+                inforow.innerHTML = "<p>" + nicedayusername + "</p>"
+                var inforow= infotable.insertRow(1);
+                
+            }
+
+
 		}
 
 	}
-    function add()
-    {
-        var table = document.getElementById("TableContent");
-            var row = table.insertRow(0);
-            var cell1 = row.insertCell(0);
-            cell1.innerHTML = "<p>hello world</p>";
-    }
+    async function getPosts()
+    {}
     getdata();
-    //add();
 </script>
 </body></html>  

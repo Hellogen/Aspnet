@@ -1,0 +1,81 @@
+/* стандартные элементы */
+body{
+    background-color: #454a4d;
+}
+table{
+    background-color: #454a4d;
+    color: aliceblue;
+}
+A:link { 
+    text-decoration: none; /* Убирает подчеркивание для ссылок */
+    color: aliceblue; /* Цвет ссылки */
+   } 
+   A:visited { text-decoration: none; color: aliceblue; /* Цвет ссылки */ } 
+   A:active { text-decoration: none; }
+   A:hover {
+    text-decoration: underline; /* Делает ссылку подчеркнутой при наведении на нее курсора */
+    color: aliceblue; /* Цвет ссылки */
+   } 
+/* меню */
+#Menu{
+height: 10ex;
+}
+#TableMenu{
+    min-width: 77vw;
+    background-color: #202324;
+}
+#TableMenuCell{
+    width: 33%;
+}
+/* контент и навигационная панель (они вместе) */
+#ContentTableTape{
+    background-color: #454a4d;
+    width: 77vw;
+}
+/* контент куда засовываются формы и контент с навигацией*/
+/* контент куда засовываются формы*/
+#ContentCell{
+    vertical-align: top;
+    width: 66%;
+}
+#TableContent{
+   
+    width: 100%;
+    text-align: left;
+    
+    vertical-align: top;
+    border-spacing: 7px 5px;
+    
+}
+#contentrow{
+    background-color: #454a4d;
+    height: 10vh;
+    background: #202324; /* Цвет фона */
+    border: 1px solid #454a4d; /* Граница вокруг ячеек */
+    padding: 5px; /* Поля в ячейках */ 
+    border-radius: 10px; 
+    vertical-align: top;
+    padding-top: 16px; 
+    
+}
+#titlecontentlink{
+    margin-left: 2vw;
+    
+}
+
+/*навигация*/
+#TapeContentCell{
+    width: 100%;
+    vertical-align: top;
+}
+#infotable{
+    background-color: #202324;
+    width: 100%;
+    
+    
+    text-align: center;
+   
+    margin: 0;
+    padding: 0;
+}
+

@@ -7,41 +7,48 @@ namespace WebApplication9.Controllers
 {
     public class Content : Controller
     {
-       // string path = @"Database\Posts\";   // путь к файлу
+        // string path = @"Database\Posts\";   // путь к файлу
 
-        string text = "Hello METANIT.COM"; // строка для записи
         public void Index(int ID)
         {
-           var context = ControllerContext;
-            if (ID is not 0)
+            if (ControllerContext.HttpContext.User.Identity.IsAuthenticated)
             {
-                string post = "";
-                 //context.HttpContext.Response.WriteAsync(ID.ToString());
-                FileStream? fstream = null;
-                try
+                var context = ControllerContext;
+                if (ID is not 0)
                 {
-                    fstream = new FileStream(Info.pathtopost + ID, FileMode.Open);
-                    byte[] buffer = new byte[fstream.Length];
-                    fstream.Read(buffer,0, buffer.Length);
-                    post = Encoding.UTF8.GetString(buffer);
-                    //Console.WriteLine(post);
-                   
-                }
-                catch (Exception ex)
-                { 
-                    context.HttpContext.Response.WriteAsync("error 404");
-                }
-                finally
-                {
-                    fstream?.Close();
-                }
-                    
+                    string post = "";
+                    //context.HttpContext.Response.WriteAsync(ID.ToString());
+                    FileStream? fstream = null;
+                    try
+                    {
+                        fstream = new FileStream(Info.pathtopost + ID, FileMode.Open);
+                        byte[] buffer = new byte[fstream.Length];
+                        fstream.Read(buffer, 0, buffer.Length);
+                        post = Encoding.UTF8.GetString(buffer);
+                        //Console.WriteLine(post);
+
+                    }
+                    catch (Exception ex)
+                    {
+                        context.HttpContext.Response.WriteAsync("error 404");
+                    }
+                    finally
+                    {
+                        fstream?.Close();
+                    }
+
                     context.HttpContext.Response.WriteAsync((string)post);
+
+                }
+                else
+                {
+                    context.HttpContext.Response.Redirect("/");
+                }
 
             }
             else
             {
-                context.HttpContext.Response.Redirect("/");
+                ControllerContext.HttpContext.Response.Redirect("/");
             }
         }
         int i = 0;

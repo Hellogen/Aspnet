@@ -9,10 +9,13 @@ using Microsoft.AspNetCore.Mvc;
 
 var builder = WebApplication.CreateBuilder(args);
 
+
 builder.Services.AddControllersWithViews(); // добавляем сервисы MVC
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
     .AddCookie(options => options.LoginPath = "/home/login");
 builder.Services.AddAuthorization();
+
+
 var app = builder.Build();
 
 app.UseAuthentication();  
@@ -57,11 +60,7 @@ app.MapPost("/login", async (string? returnUrl, HttpContext context) =>
             properties.ExpiresUtc = DateTimeOffset.UtcNow.AddHours(3);
             properties.IsPersistent = true;
             await context.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, new ClaimsPrincipal(claimsIdentity), properties);
-            var us = from User in db.Users
-                     where User.Admin == 0
-                     select User;
-            foreach (var use in us)
-                Console.WriteLine(use.Username);
+            
           
             return Results.Redirect(returnUrl ?? "/");
         }
@@ -209,7 +208,7 @@ app.MapPost("/ForgotAccount", async (string? returnUrl, HttpContext context) =>
         {
             ForgotUser.Password = password;
             db.Users.Update(ForgotUser);
-            db.SaveChanges();
+            await db.SaveChangesAsync();
         }
     }
 });
@@ -244,7 +243,7 @@ app.MapPost("/ForgotAccount/wrong", async (string? returnUrl, HttpContext contex
         {
             ForgotUser.Password = password;
             db.Users.Update(ForgotUser);
-            db.SaveChanges();
+            await db.SaveChangesAsync();
         }
         context.Response.Redirect("/");
     }
@@ -264,6 +263,7 @@ app.MapControllerRoute(
 
 app.MapControllerRoute(name: "Content", pattern: "{controller=Content}/{action}/{ID}");
 app.MapControllerRoute(name: "Requests", pattern: "{controller=Requests}/{action}");
+app.MapControllerRoute(name: "GetPost", pattern: "{controller=GetPost}/{action}");
 app.Run();
 
 record class Person(string Email, string Password);
