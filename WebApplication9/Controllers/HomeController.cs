@@ -29,13 +29,14 @@ namespace MvcApp.Controllers
                 var posts = db.Post.Where(x => x.Banned == 0).ToArray();
                 string[] datapostsname = new string[posts.Length];
                 string[] datapostsID = new string[posts.Length];
-                for (int i =0; i < posts.Length; i++)
+                for (int i =0; i < posts.Length; i++) // выдача постов
                 {
                     datapostsname[i] = posts[i].Name;
                     datapostsID[i] = posts[i].ID.ToString();
                 }
                 try
                 {
+                    //слова хорошего дня
                     using (FileStream stream = new FileStream(Info.pathtoNiceDay, FileMode.Open, FileAccess.Read))
                     {
                         Random rnd = new Random();

@@ -6,9 +6,13 @@ table{
     background-color: #454a4d;
     color: aliceblue;
 }
+a{
+    font-size: 2em;
+}
 A:link { 
     text-decoration: none; /* Убирает подчеркивание для ссылок */
     color: aliceblue; /* Цвет ссылки */
+    text-decoration: underline
    } 
    A:visited { text-decoration: none; color: aliceblue; /* Цвет ссылки */ } 
    A:active { text-decoration: none; }
@@ -47,8 +51,7 @@ height: 10ex;
     border-spacing: 7px 5px;
     
 }
-#contentrow{
-    background-color: #454a4d;
+.contentrow{
     height: 10vh;
     background: #202324; /* Цвет фона */
     border: 1px solid #454a4d; /* Граница вокруг ячеек */
@@ -58,10 +61,7 @@ height: 10ex;
     padding-top: 16px; 
     
 }
-#titlecontentlink{
-    margin-left: 2vw;
-    
-}
+
 
 /*навигация*/
 #TapeContentCell{

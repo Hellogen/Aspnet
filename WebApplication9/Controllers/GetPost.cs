@@ -9,22 +9,17 @@ namespace WebApplication9.Controllers
         [HttpGet]
         async public void GetPosts(int id)
         {
-            if (id == 1)
-            {
+            
               
                 string post;
-                using (FileStream stream = new FileStream(Info.pathtopost + id, FileMode.Open))
+                using (FileStream stream = new FileStream(Info.pathToHomePost + id, FileMode.Open))
                 {
                     byte[] buffer = new byte[stream.Length];
                     stream.Read(buffer,0,buffer.Length);
                     post = Encoding.UTF8.GetString(buffer);
                     await ControllerContext.HttpContext.Response.WriteAsync(post);
                 }
-            }
-            else
-            {
-                await ControllerContext.HttpContext.Response.WriteAsJsonAsync("none");
-            }
+            
             
         }
     }
