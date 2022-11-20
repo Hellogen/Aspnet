@@ -1,0 +1,25 @@
+
+
+<div id="content" align="center"  >
+	<table id="content" align="center">
+		<tr>
+			<td colspan=" 2">
+				<p id="Content-text-p" align="left">Хорьки — род млекопитающих семейства куньих. Кроме собственно хорьков, к этому же роду хищников относятся европейская норка, ласка, горностай и длиннохвостая ласка. Три вида, в Евразии и Северной Америке; в России два вида: лесной или тёмный хорь и степной или светлый, хорь. </p>
+			</td>
+		</tr>
+		<tr>
+			<td colspan=" 2 ">
+			<img id="Content-Image" src="resources/content1.jpg"/>
+			</td>
+		</tr>
+		<tr>
+
+			
+			</td> 
+		</tr>
+	</table>
+	
+	
+</div>
+
+

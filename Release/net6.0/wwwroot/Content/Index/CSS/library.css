@@ -1,0 +1,86 @@
+	div{
+		max-width: 1000px;
+		min-width: 700px;
+	}
+	#account{
+		margin: 0 auto;
+        width: 700px;
+		height: 50px;
+		background-color: #FFFFFF;
+	}
+	body{
+	    background: url(resources/Background.jpg) no-repeat; /* Путь к фоновому изображению */
+		background-size: cover;
+		background-color: #00000060; /* Цвет фона */
+		background-attachment: fixed;
+		
+	}
+	
+	#menu{
+        margin: 0 auto;
+        width: 700px;
+		height: 100px;
+		background-color: #0858b5;
+    }
+	#precontent
+	{
+		margin: 0 auto;
+        width: 700px;
+		height: 100px;
+		background-color: #6f7898;
+	}
+	#content{
+        margin: 0 auto;
+        width: 700px;
+		height: auto;
+		background-color: #FFFFFF;
+		color: black;
+		text-align: center;
+    }
+	#Aftercontent{
+		margin: 0 auto;
+		width: 700px;
+		
+		background-color: #FFFFFF;
+	}
+	#textcontent{
+		color: rgb(49, 151, 116);
+	}
+	#link{
+		text-decoration: none;
+	}
+	#text{
+		font-family: 'Times New Roman';
+	}
+	#text2{
+		font-family: sans-serif;
+	}
+	#comment{
+		margin: 0 auto;
+        width: 700px;
+		height: 100px;
+		background-color: #FFFFFF;
+		color: black;
+		text-align: left;
+	}
+	#end
+	{
+		margin: 0 auto;
+        width: 700px;
+		height: 600px;
+		background-color: #FFFFFF;
+		color: black;
+	}
+	#Image{
+		width: 650px;
+	}
+	#vidra{
+		background: url(resources/Background2.jpg) no-repeat; /* Путь к фоновому изображению */
+		background-size: cover;
+		background-color: rgba(0, 0, 0, 0);
+		
+		background-attachment: fixed;
+		
+	}
+	
+

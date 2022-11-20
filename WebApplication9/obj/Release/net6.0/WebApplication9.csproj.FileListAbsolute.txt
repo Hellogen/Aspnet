@@ -48,3 +48,8 @@ C:\Users\Hello\source\repos\WebApplication9\WebApplication9\obj\Release\net6.0\r
 C:\Users\Hello\source\repos\WebApplication9\WebApplication9\obj\Release\net6.0\WebApplication9.pdb
 C:\Users\Hello\source\repos\WebApplication9\WebApplication9\obj\Release\net6.0\WebApplication9.genruntimeconfig.cache
 C:\Users\Hello\source\repos\WebApplication9\WebApplication9\obj\Release\net6.0\ref\WebApplication9.dll
+C:\Users\Hello\source\repos\WebApplication9\WebApplication9\obj\Release\net6.0\staticwebassets\msbuild.WebApplication9.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Hello\source\repos\WebApplication9\WebApplication9\obj\Release\net6.0\staticwebassets\msbuild.build.WebApplication9.props
+C:\Users\Hello\source\repos\WebApplication9\WebApplication9\obj\Release\net6.0\staticwebassets\msbuild.buildMultiTargeting.WebApplication9.props
+C:\Users\Hello\source\repos\WebApplication9\WebApplication9\obj\Release\net6.0\staticwebassets\msbuild.buildTransitive.WebApplication9.props
+C:\Users\Hello\source\repos\WebApplication9\WebApplication9\obj\Release\net6.0\staticwebassets.pack.json

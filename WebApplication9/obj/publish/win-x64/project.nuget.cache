@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "oReZALMW9x2/z3ZAZDymXlBqnfd3wNvmWD3ITcckiUJXHDbgF0Y2O3h7bkO8m+ruyFnV3W02fLasAW8TG/jhFQ==",
+  "dgSpecHash": "OW3EfA21n9eltKPxhadfua44J9zpvX0h1cb5Do273tCt44CGl1N0CQNyjWy5C9hr0XoAlFurh4FTj4e2/rnhGg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Hello\\source\\repos\\WebApplication9\\WebApplication9\\WebApplication9.csproj",
   "expectedPackageFiles": [
@@ -31,10 +31,7 @@
     "C:\\Users\\Hello\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
     "C:\\Users\\Hello\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\Hello\\.nuget\\packages\\system.text.encodings.web\\6.0.0\\system.text.encodings.web.6.0.0.nupkg.sha512",
-    "C:\\Users\\Hello\\.nuget\\packages\\system.text.json\\6.0.0\\system.text.json.6.0.0.nupkg.sha512",
-    "C:\\Users\\Hello\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\6.0.4\\microsoft.netcore.app.runtime.win-x64.6.0.4.nupkg.sha512",
-    "C:\\Users\\Hello\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\6.0.4\\microsoft.windowsdesktop.app.runtime.win-x64.6.0.4.nupkg.sha512",
-    "C:\\Users\\Hello\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\6.0.4\\microsoft.aspnetcore.app.runtime.win-x64.6.0.4.nupkg.sha512"
+    "C:\\Users\\Hello\\.nuget\\packages\\system.text.json\\6.0.0\\system.text.json.6.0.0.nupkg.sha512"
   ],
   "logs": []
 }

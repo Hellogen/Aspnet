@@ -1,0 +1,21 @@
+#content{
+    background-color: #202324;
+    color: aliceblue;
+    width: 100%;
+}
+#Aftercontent{
+    background-color: #202324;
+    color: aliceblue;
+}
+#Content-text-p{
+    text-indent: 2vw;
+}
+#Content-Image{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+#titlecontentlink{
+    margin-left: 2vw;
+    
+}

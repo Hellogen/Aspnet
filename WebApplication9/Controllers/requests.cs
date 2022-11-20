@@ -14,9 +14,10 @@ namespace WebApplication9.Controllers
                 using (DataBaseContext db = new DataBaseContext())
                 {
                     string[] comments = new string[0];
-                    Console.WriteLine("add");
+                    DateTime date= DateTime.Now;
+                    Console.WriteLine(date.ToShortTimeString() +"add");
                     var context = HttpContext;
-                    var text = await context.Request.ReadFromJsonAsync<ReturnID>();
+                    var text = await context.Request.ReadFromJsonAsync<ReturnID>(); // принятие данных о посте
                     string btn = "";
                     
                     // Console.WriteLine(text.ID);
@@ -68,6 +69,7 @@ namespace WebApplication9.Controllers
             }
         }
         
+
         [HttpPost]
         public async Task Users()
         {

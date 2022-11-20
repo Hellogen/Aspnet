@@ -48,3 +48,8 @@ C:\Users\Hello\source\repos\WebApplication9\WebApplication9\bin\Debug\net6.0\run
 C:\Users\Hello\source\repos\WebApplication9\WebApplication9\bin\Debug\net6.0\runtimes\win-arm64\native\e_sqlite3.dll
 C:\Users\Hello\source\repos\WebApplication9\WebApplication9\bin\Debug\net6.0\runtimes\win-x64\native\e_sqlite3.dll
 C:\Users\Hello\source\repos\WebApplication9\WebApplication9\bin\Debug\net6.0\runtimes\win-x86\native\e_sqlite3.dll
+C:\Users\Hello\source\repos\WebApplication9\WebApplication9\obj\Debug\net6.0\staticwebassets\msbuild.WebApplication9.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Hello\source\repos\WebApplication9\WebApplication9\obj\Debug\net6.0\staticwebassets\msbuild.build.WebApplication9.props
+C:\Users\Hello\source\repos\WebApplication9\WebApplication9\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.WebApplication9.props
+C:\Users\Hello\source\repos\WebApplication9\WebApplication9\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.WebApplication9.props
+C:\Users\Hello\source\repos\WebApplication9\WebApplication9\obj\Debug\net6.0\staticwebassets.pack.json

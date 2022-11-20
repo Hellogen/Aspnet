@@ -29,10 +29,22 @@ namespace MvcApp.Controllers
                 var posts = db.Post.Where(x => x.Banned == 0).ToArray();
                 string[] datapostsname = new string[posts.Length];
                 string[] datapostsID = new string[posts.Length];
+                Random random = new Random();
+                List<int> ints= new List<int>();
                 for (int i =0; i < posts.Length; i++) // выдача постов
                 {
-                    datapostsname[i] = posts[i].Name;
-                    datapostsID[i] = posts[i].ID.ToString();
+                        int randomize = random.Next(0, posts.Length);
+                        while (ints.Contains(randomize))
+                        {
+                            randomize = random.Next(0, posts.Length);
+                        }
+                        
+                        
+                        datapostsname[i] = posts[randomize].Name;
+                        datapostsID[i] = posts[randomize].ID.ToString();
+                        ints.Add(randomize);
+                    Console.WriteLine(i + ". " + ints[i]);
+                    
                 }
                 try
                 {

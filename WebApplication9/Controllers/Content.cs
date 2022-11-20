@@ -23,8 +23,8 @@ namespace WebApplication9.Controllers
                     {
                         fstream = new FileStream(Info.pathtopost + ID, FileMode.Open);
                         byte[] buffer = new byte[fstream.Length];
-                        fstream.Read(buffer, 0, buffer.Length);
-                        post = Encoding.UTF8.GetString(buffer);
+                            fstream.Read(buffer, 0, buffer.Length);
+                            post = Encoding.UTF8.GetString(buffer);
                         //Console.WriteLine(post);
 
                     }

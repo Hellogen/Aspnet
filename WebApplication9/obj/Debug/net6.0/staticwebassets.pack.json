@@ -1,0 +1,257 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Hello\\source\\repos\\WebApplication9\\WebApplication9\\wwwroot\\AccountAvatar\\0ZeroAvatar.png",
+      "PackagePath": "staticwebassets\\AccountAvatar\\0ZeroAvatar.png"
+    },
+    {
+      "Id": "C:\\Users\\Hello\\source\\repos\\WebApplication9\\WebApplication9\\wwwroot\\Content\\Index\\Background.jpg",
+      "PackagePath": "staticwebassets\\Content\\Index\\Background.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hello\\source\\repos\\WebApplication9\\WebApplication9\\wwwroot\\Content\\Index\\CSS\\library.css",
+      "PackagePath": "staticwebassets\\Content\\Index\\CSS\\library.css"
+    },
+    {
+      "Id": "C:\\Users\\Hello\\source\\repos\\WebApplication9\\WebApplication9\\wwwroot\\Content\\Index\\CSS\\resources\\Background.jpg",
+      "PackagePath": "staticwebassets\\Content\\Index\\CSS\\resources\\Background.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hello\\source\\repos\\WebApplication9\\WebApplication9\\wwwroot\\Content\\Index\\CSS\\resources\\Background1.jpg",
+      "PackagePath": "staticwebassets\\Content\\Index\\CSS\\resources\\Background1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hello\\source\\repos\\WebApplication9\\WebApplication9\\wwwroot\\Content\\Index\\CSS\\resources\\Background2.jpg",
+      "PackagePath": "staticwebassets\\Content\\Index\\CSS\\resources\\Background2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hello\\source\\repos\\WebApplication9\\WebApplication9\\wwwroot\\Content\\Index\\CSS\\resources\\content1.jpg",
+      "PackagePath": "staticwebassets\\Content\\Index\\CSS\\resources\\content1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hello\\source\\repos\\WebApplication9\\WebApplication9\\wwwroot\\Content\\Index\\CSS\\resources\\content2.jpg",
+      "PackagePath": "staticwebassets\\Content\\Index\\CSS\\resources\\content2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hello\\source\\repos\\WebApplication9\\WebApplication9\\wwwroot\\Content\\Index\\CSS\\resources\\content3.jpg",
+      "PackagePath": "staticwebassets\\Content\\Index\\CSS\\resources\\content3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hello\\source\\repos\\WebApplication9\\WebApplication9\\wwwroot\\Content\\Index\\JS\\css\\toast.css",
+      "PackagePath": "staticwebassets\\Content\\Index\\JS\\css\\toast.css"
+    },
+    {
+      "Id": "C:\\Users\\Hello\\source\\repos\\WebApplication9\\WebApplication9\\wwwroot\\Content\\Index\\JS\\css\\toast.min.css",
+      "PackagePath": "staticwebassets\\Content\\Index\\JS\\css\\toast.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Hello\\source\\repos\\WebApplication9\\WebApplication9\\wwwroot\\Content\\Index\\JS\\js\\toast.dev.js",
+      "PackagePath": "staticwebassets\\Content\\Index\\JS\\js\\toast.dev.js"
+    },
+    {
+      "Id": "C:\\Users\\Hello\\source\\repos\\WebApplication9\\WebApplication9\\wwwroot\\Content\\Index\\JS\\js\\toast.js",
+      "PackagePath": "staticwebassets\\Content\\Index\\JS\\js\\toast.js"
+    },
+    {
+      "Id": "C:\\Users\\Hello\\source\\repos\\WebApplication9\\WebApplication9\\wwwroot\\Content\\Index\\JS\\js\\toast.min.js",
+      "PackagePath": "staticwebassets\\Content\\Index\\JS\\js\\toast.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Hello\\source\\repos\\WebApplication9\\WebApplication9\\wwwroot\\Content\\Index\\android-chrome-192x192.png",
+      "PackagePath": "staticwebassets\\Content\\Index\\android-chrome-192x192.png"
+    },
+    {
+      "Id": "C:\\Users\\Hello\\source\\repos\\WebApplication9\\WebApplication9\\wwwroot\\Content\\Index\\android-chrome-512x512.png",
+      "PackagePath": "staticwebassets\\Content\\Index\\android-chrome-512x512.png"
+    },
+    {
+      "Id": "C:\\Users\\Hello\\source\\repos\\WebApplication9\\WebApplication9\\wwwroot\\Content\\Index\\apple-touch-icon.png",
+      "PackagePath": "staticwebassets\\Content\\Index\\apple-touch-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\Hello\\source\\repos\\WebApplication9\\WebApplication9\\wwwroot\\Content\\Index\\browserconfig.xml",
+      "PackagePath": "staticwebassets\\Content\\Index\\browserconfig.xml"
+    },
+    {
+      "Id": "C:\\Users\\Hello\\source\\repos\\WebApplication9\\WebApplication9\\wwwroot\\Content\\Index\\favicon-16x16.png",
+      "PackagePath": "staticwebassets\\Content\\Index\\favicon-16x16.png"
+    },
+    {
+      "Id": "C:\\Users\\Hello\\source\\repos\\WebApplication9\\WebApplication9\\wwwroot\\Content\\Index\\favicon-32x32.png",
+      "PackagePath": "staticwebassets\\Content\\Index\\favicon-32x32.png"
+    },
+    {
+      "Id": "C:\\Users\\Hello\\source\\repos\\WebApplication9\\WebApplication9\\wwwroot\\Content\\Index\\favicon.ico",
+      "PackagePath": "staticwebassets\\Content\\Index\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Hello\\source\\repos\\WebApplication9\\WebApplication9\\wwwroot\\Content\\Index\\library.css",
+      "PackagePath": "staticwebassets\\Content\\Index\\library.css"
+    },
+    {
+      "Id": "C:\\Users\\Hello\\source\\repos\\WebApplication9\\WebApplication9\\wwwroot\\Content\\Index\\mstile-150x150.png",
+      "PackagePath": "staticwebassets\\Content\\Index\\mstile-150x150.png"
+    },
+    {
+      "Id": "C:\\Users\\Hello\\source\\repos\\WebApplication9\\WebApplication9\\wwwroot\\Content\\Index\\resources\\Background.jpg",
+      "PackagePath": "staticwebassets\\Content\\Index\\resources\\Background.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hello\\source\\repos\\WebApplication9\\WebApplication9\\wwwroot\\Content\\Index\\resources\\Background1.jpg",
+      "PackagePath": "staticwebassets\\Content\\Index\\resources\\Background1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hello\\source\\repos\\WebApplication9\\WebApplication9\\wwwroot\\Content\\Index\\resources\\content1.jpg",
+      "PackagePath": "staticwebassets\\Content\\Index\\resources\\content1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hello\\source\\repos\\WebApplication9\\WebApplication9\\wwwroot\\Content\\Index\\safari-pinned-tab.svg",
+      "PackagePath": "staticwebassets\\Content\\Index\\safari-pinned-tab.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hello\\source\\repos\\WebApplication9\\WebApplication9\\wwwroot\\Content\\Index\\site.webmanifest",
+      "PackagePath": "staticwebassets\\Content\\Index\\site.webmanifest"
+    },
+    {
+      "Id": "C:\\Users\\Hello\\source\\repos\\WebApplication9\\WebApplication9\\wwwroot\\ForgotAccount\\forgotpassword.html",
+      "PackagePath": "staticwebassets\\ForgotAccount\\forgotpassword.html"
+    },
+    {
+      "Id": "C:\\Users\\Hello\\source\\repos\\WebApplication9\\WebApplication9\\wwwroot\\ForgotAccount\\forgotpassworderror.html",
+      "PackagePath": "staticwebassets\\ForgotAccount\\forgotpassworderror.html"
+    },
+    {
+      "Id": "C:\\Users\\Hello\\source\\repos\\WebApplication9\\WebApplication9\\wwwroot\\Home\\JS\\Requests.js",
+      "PackagePath": "staticwebassets\\Home\\JS\\Requests.js"
+    },
+    {
+      "Id": "C:\\Users\\Hello\\source\\repos\\WebApplication9\\WebApplication9\\wwwroot\\Home\\Resources\\Background.jpg",
+      "PackagePath": "staticwebassets\\Home\\Resources\\Background.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hello\\source\\repos\\WebApplication9\\WebApplication9\\wwwroot\\Home\\Resources\\Background1.jpg",
+      "PackagePath": "staticwebassets\\Home\\Resources\\Background1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hello\\source\\repos\\WebApplication9\\WebApplication9\\wwwroot\\Home\\Resources\\Background2.jpg",
+      "PackagePath": "staticwebassets\\Home\\Resources\\Background2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hello\\source\\repos\\WebApplication9\\WebApplication9\\wwwroot\\Home\\Resources\\content1.jpg",
+      "PackagePath": "staticwebassets\\Home\\Resources\\content1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hello\\source\\repos\\WebApplication9\\WebApplication9\\wwwroot\\Home\\Resources\\content2.jpg",
+      "PackagePath": "staticwebassets\\Home\\Resources\\content2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hello\\source\\repos\\WebApplication9\\WebApplication9\\wwwroot\\Home\\Resources\\content3.jpg",
+      "PackagePath": "staticwebassets\\Home\\Resources\\content3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hello\\source\\repos\\WebApplication9\\WebApplication9\\wwwroot\\Home\\css\\Content.css",
+      "PackagePath": "staticwebassets\\Home\\css\\Content.css"
+    },
+    {
+      "Id": "C:\\Users\\Hello\\source\\repos\\WebApplication9\\WebApplication9\\wwwroot\\Home\\css\\library.css",
+      "PackagePath": "staticwebassets\\Home\\css\\library.css"
+    },
+    {
+      "Id": "C:\\Users\\Hello\\source\\repos\\WebApplication9\\WebApplication9\\wwwroot\\Login\\Login.html",
+      "PackagePath": "staticwebassets\\Login\\Login.html"
+    },
+    {
+      "Id": "C:\\Users\\Hello\\source\\repos\\WebApplication9\\WebApplication9\\wwwroot\\Login\\LoginError.html",
+      "PackagePath": "staticwebassets\\Login\\LoginError.html"
+    },
+    {
+      "Id": "C:\\Users\\Hello\\source\\repos\\WebApplication9\\WebApplication9\\wwwroot\\Registration\\Registration.html",
+      "PackagePath": "staticwebassets\\Registration\\Registration.html"
+    },
+    {
+      "Id": "C:\\Users\\Hello\\source\\repos\\WebApplication9\\WebApplication9\\wwwroot\\Registration\\RegistrationError.html",
+      "PackagePath": "staticwebassets\\Registration\\RegistrationError.html"
+    },
+    {
+      "Id": "C:\\Users\\Hello\\source\\repos\\WebApplication9\\WebApplication9\\wwwroot\\Resources\\Background.jpg",
+      "PackagePath": "staticwebassets\\Resources\\Background.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hello\\source\\repos\\WebApplication9\\WebApplication9\\wwwroot\\Resources\\Background1.jpg",
+      "PackagePath": "staticwebassets\\Resources\\Background1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hello\\source\\repos\\WebApplication9\\WebApplication9\\wwwroot\\Resources\\Background2.jpg",
+      "PackagePath": "staticwebassets\\Resources\\Background2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hello\\source\\repos\\WebApplication9\\WebApplication9\\wwwroot\\Resources\\content1.jpg",
+      "PackagePath": "staticwebassets\\Resources\\content1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hello\\source\\repos\\WebApplication9\\WebApplication9\\wwwroot\\Resources\\content2.jpg",
+      "PackagePath": "staticwebassets\\Resources\\content2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hello\\source\\repos\\WebApplication9\\WebApplication9\\wwwroot\\Resources\\content3.jpg",
+      "PackagePath": "staticwebassets\\Resources\\content3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hello\\source\\repos\\WebApplication9\\WebApplication9\\wwwroot\\android-chrome-192x192.png",
+      "PackagePath": "staticwebassets\\android-chrome-192x192.png"
+    },
+    {
+      "Id": "C:\\Users\\Hello\\source\\repos\\WebApplication9\\WebApplication9\\wwwroot\\android-chrome-512x512.png",
+      "PackagePath": "staticwebassets\\android-chrome-512x512.png"
+    },
+    {
+      "Id": "C:\\Users\\Hello\\source\\repos\\WebApplication9\\WebApplication9\\wwwroot\\apple-touch-icon.png",
+      "PackagePath": "staticwebassets\\apple-touch-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\Hello\\source\\repos\\WebApplication9\\WebApplication9\\wwwroot\\browserconfig.xml",
+      "PackagePath": "staticwebassets\\browserconfig.xml"
+    },
+    {
+      "Id": "C:\\Users\\Hello\\source\\repos\\WebApplication9\\WebApplication9\\wwwroot\\favicon-16x16.png",
+      "PackagePath": "staticwebassets\\favicon-16x16.png"
+    },
+    {
+      "Id": "C:\\Users\\Hello\\source\\repos\\WebApplication9\\WebApplication9\\wwwroot\\favicon-32x32.png",
+      "PackagePath": "staticwebassets\\favicon-32x32.png"
+    },
+    {
+      "Id": "C:\\Users\\Hello\\source\\repos\\WebApplication9\\WebApplication9\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Hello\\source\\repos\\WebApplication9\\WebApplication9\\wwwroot\\mstile-150x150.png",
+      "PackagePath": "staticwebassets\\mstile-150x150.png"
+    },
+    {
+      "Id": "C:\\Users\\Hello\\source\\repos\\WebApplication9\\WebApplication9\\wwwroot\\safari-pinned-tab.svg",
+      "PackagePath": "staticwebassets\\safari-pinned-tab.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hello\\source\\repos\\WebApplication9\\WebApplication9\\wwwroot\\site.webmanifest",
+      "PackagePath": "staticwebassets\\site.webmanifest"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.WebApplication9.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.WebApplication9.props",
+      "PackagePath": "build\\WebApplication9.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.WebApplication9.props",
+      "PackagePath": "buildMultiTargeting\\WebApplication9.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.WebApplication9.props",
+      "PackagePath": "buildTransitive\\WebApplication9.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
